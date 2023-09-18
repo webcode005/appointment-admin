@@ -1,0 +1,143 @@
+[15-Sep-2023 17:48:53 UTC] PHP Warning:  Use of undefined constant AMOUNT - assumed 'AMOUNT' (this will throw an Error in a future version of PHP) in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/create_payment_intent.php on line 9
+[15-Sep-2023 17:48:53 UTC] PHP Warning:  A non-numeric value encountered in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/create_payment_intent.php on line 9
+[15-Sep-2023 17:48:53 UTC] PHP Warning:  Use of undefined constant CURRENCY - assumed 'CURRENCY' (this will throw an Error in a future version of PHP) in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/create_payment_intent.php on line 15
+[15-Sep-2023 17:48:53 UTC] PHP Warning:  Use of undefined constant DESCRIPTION - assumed 'DESCRIPTION' (this will throw an Error in a future version of PHP) in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/create_payment_intent.php on line 16
+[15-Sep-2023 17:48:53 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_NBTbCcbaAsqAvr) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 17:50:04 UTC] PHP Notice:  Constant CURRENCY already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/index.php on line 5
+[15-Sep-2023 17:50:04 UTC] PHP Notice:  Constant AMOUNT already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/index.php on line 6
+[15-Sep-2023 17:50:04 UTC] PHP Notice:  Constant DESCRIPTION already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/index.php on line 7
+[15-Sep-2023 17:50:13 UTC] PHP Notice:  Constant CURRENCY already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 12
+[15-Sep-2023 17:50:13 UTC] PHP Notice:  Constant AMOUNT already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 13
+[15-Sep-2023 17:50:13 UTC] PHP Notice:  Constant DESCRIPTION already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 14
+[15-Sep-2023 17:51:03 UTC] PHP Notice:  Constant CURRENCY already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 12
+[15-Sep-2023 17:51:03 UTC] PHP Notice:  Constant AMOUNT already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 13
+[15-Sep-2023 17:51:03 UTC] PHP Notice:  Constant DESCRIPTION already defined in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 14
+[15-Sep-2023 17:52:15 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 17:52:15 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 17:52:16 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_O34dM4Vc4Qx8iz) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 18:09:00 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 18:09:00 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 18:09:01 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 18:09:01 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 18:09:01 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_jhXKWTPvLOnBIG) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 18:13:01 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 18:13:01 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 18:13:01 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_yPnq5g95pPphHW) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 18:13:05 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 18:13:05 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 18:13:05 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 18:13:05 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 18:13:06 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_LrGREPhYuKgW6T) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 19:29:22 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 19:29:22 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:29:24 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 19:29:24 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:29:24 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_Nv2nV4iYSVo3jJ) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 19:30:19 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 19:30:19 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:30:20 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 16
+[15-Sep-2023 19:30:20 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:30:20 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_sgLwiN9PwZtHeR) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 19:30:57 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:30:57 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:30:57 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 18
+[15-Sep-2023 19:30:58 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:30:58 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 18
+[15-Sep-2023 19:30:58 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_ieGxJc4yb5xoAM) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 19:31:08 UTC] PHP Notice:  Undefined index: name in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 6
+[15-Sep-2023 19:31:08 UTC] PHP Notice:  Undefined index: email in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 7
+[15-Sep-2023 19:31:08 UTC] PHP Notice:  Undefined index: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 8
+[15-Sep-2023 19:31:08 UTC] PHP Notice:  Undefined index: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/card.php on line 9
+[15-Sep-2023 19:31:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:31:09 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:31:09 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 18
+[15-Sep-2023 19:31:09 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_UAqayPMP5cQPVR) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 19:31:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:31:38 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:31:38 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 18
+[15-Sep-2023 19:31:39 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_7EGuawNnIrbPqT) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 19:31:46 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:31:46 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:31:46 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 18
+[15-Sep-2023 19:31:47 UTC] PHP Notice:  Undefined variable: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 17
+[15-Sep-2023 19:31:47 UTC] PHP Notice:  Undefined variable: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 18
+[15-Sep-2023 19:31:47 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_uH6VEHINeclcl1) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38
+[15-Sep-2023 19:32:48 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:33:01 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:35:10 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:35:34 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:36:25 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:38:19 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:38:27 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[15-Sep-2023 19:39:05 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[17-Sep-2023 07:59:44 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 2
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: name in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 4
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: email in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 5
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 6
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 7
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: name in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 4
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: email in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 5
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: amount in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 6
+[17-Sep-2023 12:48:08 UTC] PHP Notice:  Undefined index: service in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/config.php on line 7
+[17-Sep-2023 12:48:09 UTC] PHP Fatal error:  Uncaught Error sending request to Stripe: (Status 400) (Request req_1soz2vgTbJc03a) This value must be greater than or equal to 1.
+Stripe\Exception\InvalidRequestException: This value must be greater than or equal to 1. in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php:38
+Stack trace:
+#0 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/InvalidRequestException.php(35): Stripe\Exception\ApiErrorException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...')
+#1 /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/ApiRequestor.php(213): Stripe\Exception\InvalidRequestException::factory('This value must...', 400, '{\n  "error": {\n...', Array, Object(Stripe\Util\CaseInsensitiveArray), 'parameter_inval...', 'amount')
+#2 /home/shipgoij/public_html/haldir in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/stripe/vendor/stripe/stripe-php/lib/Exception/ApiErrorException.php on line 38

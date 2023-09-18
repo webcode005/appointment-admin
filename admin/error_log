@@ -1,0 +1,7 @@
+[17-Sep-2023 17:12:14 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/admin/record-data-view.php on line 23
+[17-Sep-2023 17:12:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/admin/record-data-view.php on line 52
+[17-Sep-2023 17:12:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/admin/record-data-view.php on line 54
+[17-Sep-2023 17:12:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/admin/record-data-view.php on line 55
+[17-Sep-2023 17:12:14 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/admin/record-data-view.php on line 56
+[17-Sep-2023 17:14:15 UTC] PHP Notice:  Undefined variable: description in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/admin/include/header.php on line 5
+[17-Sep-2023 17:14:15 UTC] PHP Notice:  Undefined variable: keywords in /home/shipgoij/public_html/haldiramrestaurant.in/titan-website/admin/include/header.php on line 6
